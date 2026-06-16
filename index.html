@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadamour Music Group</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0c;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    a { color: #a78bfa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: #111114;
+      border-bottom: 1px solid #1f1f27;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.02em;
+    }
+
+    header span {
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem 4rem;
+      background: linear-gradient(180deg, #111114 0%, #0a0a0c 100%);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 2rem;
+      color: #9ca3af;
+      font-size: 1.05rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1f1f27;
+      border: 1px solid #2d2d3a;
+      color: #a78bfa;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.5rem;
+    }
+
+    .section {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+      border-top: 1px solid #1f1f27;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 1.25rem;
+    }
+
+    .section p, .section li {
+      color: #9ca3af;
+      margin-bottom: 0.75rem;
+    }
+
+    .section ul {
+      padding-left: 1.4rem;
+    }
+
+    .offers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .offer-card {
+      background: #111114;
+      border: 1px solid #1f1f27;
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+
+    .offer-card h4 {
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .offer-card p {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin: 0;
+    }
+
+    .policy-block {
+      background: #111114;
+      border: 1px solid #1f1f27;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .policy-block h4 {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-top: 1px solid #1f1f27;
+      color: #4b5563;
+      font-size: 0.85rem;
+    }
+
+    footer a { color: #6b7280; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jadamour Music Group</h1>
+    <span>Independent Artist Distribution</span>
+  </header>
+
+  <div class="hero">
+    <div class="badge">Now Available on Google Play</div>
+    <h2>Your Music Deserves to Be Heard</h2>
+    <p>Jadamour Music Group makes music distribution simple for independent artists and musicians ready to share their sound with the world.</p>
+  </div>
+
+  <!-- About -->
+  <div class="section">
+    <h3>About</h3>
+    <p>Submit your single or full project directly through the app in minutes. Upload your master audio file, cover artwork, and song details — and let us handle the rest.</p>
+    <div class="offers">
+      <div class="offer-card">
+        <h4>Major Platform Distribution</h4>
+        <p>Spotify, Apple Music, and streaming platforms worldwide.</p>
+      </div>
+      <div class="offer-card">
+        <h4>80/20 Royalty Split</h4>
+        <p>You keep the majority of what you earn.</p>
+      </div>
+      <div class="offer-card">
+        <h4>Standard Delivery</h4>
+        <p>14–30 days to all platforms.</p>
+      </div>
+      <div class="offer-card">
+        <h4>Rush Delivery</h4>
+        <p>7-day turnaround available for an additional fee.</p>
+      </div>
+      <div class="offer-card">
+        <h4>Priority Marketing</h4>
+        <p>Optional promotion to 10,000+ potential new listeners.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing -->
+  <div class="section">
+    <h3>Pricing</h3>
+    <ul>
+      <li>Single distribution — $75</li>
+      <li>Album / EP distribution — $300</li>
+      <li>Rush delivery add-on — $40</li>
+      <li>Priority Marketing add-on — $29</li>
+    </ul>
+  </div>
+
+  <!-- Refund Policy -->
+  <div class="section" id="refunds">
+    <h3>Refund Policy</h3>
+    <div class="policy-block">
+      <h4>General Policy</h4>
+      <p>All sales are final once a submission has been accepted and distribution processing has begun. Because Jadamour Music Group immediately initiates the distribution process upon receiving payment, we are unable to offer refunds after work has started.</p>
+      <h4>Exceptions</h4>
+      <p>A full refund may be issued if:</p>
+      <ul>
+        <li>Your submission was charged but never processed due to a technical error on our end.</li>
+        <li>You request a cancellation before distribution processing has begun (within 24 hours of payment).</li>
+      </ul>
+      <h4>How to Request a Refund</h4>
+      <p>To request a refund, contact us at <a href="mailto:michellertaylor@aol.com">michellertaylor@aol.com</a> within 24 hours of your payment with your order ID and reason for the request. We will respond within 3 business days.</p>
+    </div>
+  </div>
+
+  <!-- Privacy Policy -->
+  <div class="section" id="privacy">
+    <h3>Privacy Policy</h3>
+    <div class="policy-block">
+      <h4>Information We Collect</h4>
+      <p>When you use the Jadamour Music app, we collect information you provide directly, including your artist name, email address, social media handle, and the audio and artwork files you upload for distribution.</p>
+
+      <h4>How We Use Your Information</h4>
+      <ul>
+        <li>To process and fulfill your music distribution submission.</li>
+        <li>To communicate with you about your order status.</li>
+        <li>To process payments securely through our payment processor (Stripe).</li>
+      </ul>
+
+      <h4>Payment Information</h4>
+      <p>We do not store your credit card or payment details. All payment processing is handled securely by Stripe. Please review <a href="https://stripe.com/privacy" target="_blank">Stripe's Privacy Policy</a> for details on how they handle your payment data.</p>
+
+      <h4>Data Sharing</h4>
+      <p>We do not sell, rent, or share your personal information with third parties except as necessary to fulfill your distribution order (e.g., submitting your music to streaming platforms) or as required by law.</p>
+
+      <h4>Data Retention</h4>
+      <p>We retain your submission data for the duration of your distribution agreement and as required for accounting and legal purposes.</p>
+
+      <h4>Contact</h4>
+      <p>For privacy-related questions, contact us at <a href="mailto:michellertaylor@aol.com">michellertaylor@aol.com</a>.</p>
+
+      <p style="margin-top:1rem; font-size:0.8rem; color:#4b5563;">Last updated: June 2026</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="section" id="contact">
+    <h3>Contact</h3>
+    <p>For support, refund requests, or general inquiries:</p>
+    <p>Email: <a href="mailto:michellertaylor@aol.com">michellertaylor@aol.com</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Jadamour Music Group. All rights reserved.</p>
+    <p style="margin-top:0.5rem;">
+      <a href="#refunds">Refund Policy</a> &nbsp;·&nbsp;
+      <a href="#privacy">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="#contact">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
